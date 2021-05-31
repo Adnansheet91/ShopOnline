@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <Button id="logInButton" layoutX="230.0" layoutY="274.0" mnemonicParsing="false" onAction="#ifClick" prefHeight="61.0" prefWidth="139.0" text="Log in" textFill="#392020">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="193.0" layoutY="45.0" prefHeight="72.0" prefWidth="213.0" text="Online Store" textFill="#f80d0d">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <TextField layoutX="226.0" layoutY="211.0" promptText="Enter your name please" />
+      <ImageView fitHeight="94.0" fitWidth="112.0" layoutX="244.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../2d964a6bf37d9224d0615dc85fccdd62--shopping-cart-logo-info-graphics.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
